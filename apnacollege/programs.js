@@ -35,7 +35,7 @@ console.log(factorial(8))
 
 
 //febonacci series
-
+//fibonacci series means adding previous two numbers to get the next number
 let n1=0;
 let n2=1;
 let fibseries=[]
@@ -46,6 +46,7 @@ for(let i=0;i<=5;i++){
     n2=t+n2
 }
 console.log(fibseries)
+
 
 //write a program to return a reverse of a string
  function reversestring(str){
@@ -68,8 +69,6 @@ sum1=sum1+i
 
 }
 console.log(sum1)
-
-
 
 
 //sum of square of numbers from 1 to 10
@@ -115,7 +114,7 @@ console.log(res)
  }
  console.log(sumofelements)
  console.log(arrayb.push[20,10])
-
+ console.log(sumofelements)
 
 //sum of array elements
 let numbers=[1,2,3,4,5]
@@ -273,6 +272,7 @@ for(let i=0;i<arrmax2.length;i++){
         }
     }
 }
+
 console.log(max2)
 //smallest element of an 2D array
 let arrmin=[[7,8,9],[10,11,12],[13,14,15]]
@@ -522,4 +522,5 @@ const emp2=new employee("doe",6000)
 emp2.display()
 const emp3=new employee("max",4000)
 emp3.display()
+
 
